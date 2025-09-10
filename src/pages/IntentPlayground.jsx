@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState } from 'react';
 
 export default function IntentPlayground() {
-  const [intent, setIntent] = useState("");
+  const [intent, setIntent] = useState('');
   const [jsonIntent, setJsonIntent] = useState(null);
   const [matching, setMatching] = useState(false);
   const [matched, setMatched] = useState(false);
@@ -11,10 +11,10 @@ export default function IntentPlayground() {
     setMatching(true);
     setMatched(false);
     const generated = {
-      type: "swap",
+      type: 'swap',
       description: intent,
-      offered: "10 USDC",
-      requested: "0.01 ETH",
+      offered: '10 USDC',
+      requested: '0.01 ETH',
       privacy: true,
     };
     setTimeout(() => {
