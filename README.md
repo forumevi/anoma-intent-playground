@@ -1,4 +1,4 @@
-🌌 Anoma App Demo
+🌌 Anoma Intent Playground (Demo Application)
 
 This project is a collaborative effort by the Anoma Real Army Cohort.
 
@@ -16,47 +16,41 @@ This project is a collaborative effort by the Anoma Real Army Cohort.
 
 🔍 Overview
 
-The Anoma App Demo showcases the features and functionalities of the Anoma ecosystem in a user-friendly and interactive way.
+The Anoma Intent Playground is a user-friendly web application that allows users to explore Anoma’s Intents system.
 
-Through this project, we aimed to explore the integration of privacy, usability, and security within a decentralized framework.
+Users can input their intent, for example:
 
-The demo allows users to:
+“I want to swap 10 USDC for 0.01 ETH”
 
-Interact with core functionalities
+“I want to sell my NFT only via a private swap”
 
-Visualize system workflows
+The app converts this intent into a JSON-formatted Intent Transaction.
 
-Understand potential applications of the Anoma system
+A demo matching engine then simulates potential matches, showing results via animation.
+
+✨ Demo Flow: Enter Intent → View JSON → See Matching Result
 
 ⚙️ How It Works
 
-User Interface
-A simple, intuitive UI for easy navigation.
+User Interface – Simple and intuitive web interface for easy interaction.
 
+Intent Generation – Converts user’s textual intent into structured JSON transactions.
 
-Core Functionality
-Simulate transactions and experience privacy-enhancing mechanisms.
-
-
-Interactive Demo
-Live preview of app behavior and interactions.
-
+Matching Simulation – Demo engine visualizes possible matches with animation.
 
 🌐 Demo Site
 
-Check out the live demo here: [Demo Site Link](https://anoma-intent-playground.onrender.com/)
+Check out the live demo here: Demo Site Link
 
 🎯 Purpose
 
 This project serves as an educational and experimental showcase by the Anoma Real Army Cohort.
 
-It is meant to:
+It helps users understand:
 
-Help community members understand the Anoma system
+How Intents are structured and executed
 
-Inspire new ideas
-
-Encourage collaboration within the cohort
+How transaction matching works in a decentralized environment
 
 📢 Acknowledgements
 
