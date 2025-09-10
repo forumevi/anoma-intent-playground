@@ -1,4 +1,4 @@
-import IntentPlayground from "./pages/IntentPlayground";
+import IntentPlayground from './pages/IntentPlayground';
 
 export default function App() {
   return <IntentPlayground />;
