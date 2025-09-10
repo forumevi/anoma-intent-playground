@@ -4,10 +4,6 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/anoma-intent-playground/",
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src'),
-    },
-  },
+  base: "/anoma-intent-playground/",   // <-- Burası GitHub Pages URL base'in
+  resolve: { alias: { '@': path.resolve(__dirname, './src') } },
 })
