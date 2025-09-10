@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "vite preview --port $PORT"  // Render’da kullanılacak
+    "start": "vite preview --port $PORT"
   },
   "dependencies": {
     "clsx": "^2.1.0",
