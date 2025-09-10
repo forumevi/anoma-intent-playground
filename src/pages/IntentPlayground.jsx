@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Maskot from "../components/Maskot"; // Maskot component’i (aşağıda vereceğim)
+import Maskot from "../components/Maskot";
+import StarsBackground from "../components/StarsBackground";
+import GlowParticles from "../components/GlowParticles";
 
 export default function IntentPlayground() {
   const [intent, setIntent] = useState("");
@@ -31,9 +33,10 @@ export default function IntentPlayground() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6 relative overflow-hidden bg-gradient-to-br from-purple-950 via-black to-indigo-950">
       {/* Dinamik yıldız efekti */}
-      <div className="absolute inset-0 animate-pulse-slow opacity-30">
-        <div className="w-full h-full bg-[url('/stars.png')] bg-repeat"></div>
-      </div>
+      <StarsBackground />
+
+      {/* Glow partiküller */}
+      <GlowParticles trigger={matched} />
 
       {/* Maskot */}
       <Maskot matching={matching} matched={matched} className="absolute top-6 right-6" />
